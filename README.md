@@ -1,3 +1,20 @@
+### SQL Injection :
+- SQL injection is the most critical vulnerability.
+- Attacker injects SQL code in input field and server runs the code causing unauthorised access to database
+- This happens mainly because Input sanitization is not applied properly
+- Dont trust user input always so server side checking
+
+
+---
+
+### Tool :
+- To check the web application is vulnerable or not to SQL injection Sqlmap tool helps a lot.
+- in this repo we are going to see Sqlmap.
+
+
+---
+
+
 ### Sqlmap 
 - Sqlmap is the automated tool designed to identify and exploit SQL vulnerabilities in web application.
 - This is a command line tool.
