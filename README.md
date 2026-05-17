@@ -74,6 +74,9 @@ sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart -T users -
 <img width="828" height="169" alt="Screenshot 2026-05-17 165841" src="https://github.com/user-attachments/assets/e6ba8db9-9b21-4691-8f77-b64b375387b2" />
 
 
+----
+
+
 4. Dump the data from User tabel
 
 
